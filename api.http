@@ -1,0 +1,15 @@
+### recuperar informacion de un pokemon
+GET http://localhost:3000/pokemon/charmander HTTP/1.1
+
+
+### para crear un pokemon
+POST http://localhost:3000/pokemon HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": [
+    "transform"
+  ]
+}
