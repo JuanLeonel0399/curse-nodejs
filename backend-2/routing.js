@@ -1,6 +1,6 @@
 const http = require('node:http')
 
-const jsonCharmander = require('./charmanderPK.json')
+const jsonCharmander = require('../charmanderPK.json')
 const processRequest = (req, res) => {
   const { method, url } = req
   switch (method) {
